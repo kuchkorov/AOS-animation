@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>AOS animation</title>
+</head>
+<body>
+    <header class="main-header">
+        <h1><span>Acrylic Painting </span>Gallery</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dolore!</p>
+    </header>
+
+    <main class="container">
+        <section class="card" data-aos="fade-left" >
+            <img src="https://images.pexels.com/photos/208745/pexels-photo-208745.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+            <div>
+                <h3>Acrylic Painting One</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam facere molestiae vitae totam repudiandae quis architecto quasi magnam ullam ipsam!</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+        <section class="card" data-aos="fade-right">
+            <img src="https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+            <div>
+                <h3>Acrylic Painting Two</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam facere molestiae vitae totam repudiandae quis architecto quasi magnam ullam ipsam!</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+        <section class="card" data-aos="fade-down">
+            <img src="https://images.pexels.com/photos/40142/new-york-skyline-manhattan-hudson-40142.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+            <div>
+                <h3>Acrylic Painting Three</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam facere molestiae vitae totam repudiandae quis architecto quasi magnam ullam ipsam!</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+        <section class="card" data-aos="fade-up-right">
+            <img src="https://images.pexels.com/photos/37646/new-york-skyline-new-york-city-city-37646.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+            <div>
+                <h3>Acrylic Painting Four</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam facere molestiae vitae totam repudiandae quis architecto quasi magnam ullam ipsam!</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+        <section class="card" data-aos="slide-down">
+            <img src="https://images.pexels.com/photos/161963/chicago-illinois-skyline-skyscrapers-161963.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+            <div>
+                <h3>Acrylic Painting Five</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam facere molestiae vitae totam repudiandae quis architecto quasi magnam ullam ipsam!</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 400,
+          duration: 1000
+      });
+    </script>
+</body>
+</html>
